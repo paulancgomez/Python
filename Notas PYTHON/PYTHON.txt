@@ -1,0 +1,31 @@
+//PHYTON
+
+Phyton es un lenguaje de alto nivel que tiene 4 caracteristicas que lo destacan:
+
+-Es interpretado
+Los lenguajes pueden ser interpretados o puede ser compilados. La diferencia esta en el mecanismo de traduccion de estos programas. Cuando nosotros hablamos de un lenguaje compilado (Pascal o C) lo que estamos hablando es que una vez que nosotros terminamos de escribir nuestro codigo realiza un proceso de compilacion en donde convierte todo mi programa en un codigo entendible por la computadora pero que necesita ciertas palabras para entender donde empieza y donde termina mi programa. Mientras que un lenguaje interpretado lo que hace es esta traduccion linea por linea, es decir, no necesita una palabra especial para empezar o para terminar el programa sino que a medida que yo voy escribiendo va interpretando cada linea y la va traduciendo directamente.   
+
+-Es multiplataforma
+Porque corre en distintos sistemas operativos. Ademas corre en navegadores
+
+-Es multiparadigma
+Significa que acepta instrucciones en mas de un paradigma. Ejemplo de paradigmas: Programacion orientada a objetos, Programacion funcional, Programacion Estructurada... Pyhton soporta todos estos.
+
+-Es de Tipado Dinamico
+Porque no necesita que yo le indique especificamente con que tipo de dato estoy por trabajar. 
+-----------------------------------------------------------------------------------------------
+TIPO DE DATO
+
+-Que python no me exija que yo le indique que tipo de dato voy a usar no significa que internamente no use tipos de datos. Por supuesto que Python internamente usa tipos de datos porque las reservas de memoria para un entero no es la misma que la reserva de memoria para un flotante (numer real, decimal) que la reserva de memoria para una cadena, que la reserva de memoria para un diccionario.
+-Es importante que Python vaya reconociendo que tipo de dato estoy usando porque internamente esta separando espacio de memoria diferente.
+
+-C no me da herramientas para trabajar con numero complejos, no me permite manipular numeros complejor. No tiene una libreria o no tiene una funcion para que yo use numeros complejos. Python si la tiene.
+-----------------------------------------------------------------------------------------------
+//COMO VAMOS A EJECUTAR NUESTROS PROGRAMAS EN PHYTON?
+
+Colaboraty o Colab: Permite escribir y ejecutar codigo de Phyton en un navegador, sin configuracion requerida y ofrece facilidad para compartir.
+
+------------------------------------------------------------------------------------------------
+IMPORTANTE:
+
+-Python diferencia entre mayusculas y minusculas 

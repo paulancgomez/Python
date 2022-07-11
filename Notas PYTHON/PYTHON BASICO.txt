@@ -1,0 +1,240 @@
+//ASIGNACION
+
+a = 5
+a = a+1
+//Muestra 6
+
+suma = 2 + 2
+
+---------------------------------------------------------------------------------------------
+ASIGNACION ERROR
+
+a = 1
+b = 2
+c = 2
+a = (b / c) * 5
+a = a + 1
+a = 'Python'
+a = 'Python' + 'OK'
+a = A + B
+
+-Esta asignación generará un error, porque no están definidos los valores de las variables A y B.
+"name 'A' is not defined"
+----------------------------------------------------------------------------------------------
+//VARIABLES
+
+-----------------------------------------------------------------------------------------------
+//TIPADO DINAMICO
+
+a = 1
+a = 'Python'
+
+-En este caso la variable a pasa de ser 1 a una palabra.
+-La variable a puede ir cambiando de manera dinamica de tipo de dato.
+-Yo no necesito indicar que a es un entero para poder asignarle un entero. En otro lenguaje, por ejemplo, en C, si yo digo que a es un entero, despues a no puede ser de ningun otro tipo, solo me va a permitir que yo le asigne numeros.
+
+a = 1
+print(a)
+
+a = 'Python'
+print(a)
+
+-Muestra:
+1
+Python
+-----------------------------------------------------------------------------------------------
+//MOSTRAR
+
+*******************************
+//FORMA 1
+
+a=5
+a
+
+-Muestra: 5
+
+********************************
+//FORMA 2: funcion print
+
+a= 'Python'
+print(a)
+
+-Muestra: Python
+
+*********************************
+//FORMA 3: concatena de cadenas
+
+a= 'Python' + 'OK'
+print(a)
+
+-Muestra: PythonOk
+
+***********************************
+//FORMA 4: concatena variable y cadena
+
+a= 'Python'
+a= a + 'OK'
+print(a)
+
+-Muestra: PythonOk
+
+-------------------------------------------------------------------------------------------------
+//TIPOS DE DATOS EN PYTHON
+
+-Numeros:
+Enteros: Enteros(int)
+Reales: Reales(float)
+Complejos: Complejos(complex)
+
+-Cadenas de Texto: Caracteres, Palabras, Parrafos.
+
+-Booleanos: Verdadero, Falso.
+
+*************************************
+//ENTEROS
+
+entero = 2
+salida 2
+
+***********************************
+//REALES
+
+real2 = 3.2
+salida 3.2
+
+************************************
+//ENTERO Y REAL
+
+real3 = entero + real2
+salida 5.2
+
+-Por defecto cuando yo opero dos tipos de datos distintos, el resultado va a ser siempre del tipo de dato mas grande, del tipo que lo contenga. El real
+
+***********************************
+//COMPLEJO
+
+complejo1 = 1 + 2j
+salida (1+2j)
+
+**********************************
+//REAL Y COMPLEJO
+
+complejo2 = complejo1 + real3
+salida (6.2+2j)
+
+-Cuando sumo un numero real con un numero complejo se va al campo mas grande, al campo mas amplio numerico que es los complejos.
+
+-------------------------------------------------------------------------------------------------
+//OPERADORES ARITMETICOS
+
+Suma: +
+1 + 2 = 3
+
+Resta: -
+5 - 3 = 2
+
+Multiplicación: *
+5 * 5 = 25
+
+División comun (con decimales): /
+10 / 4 = 2.5
+
+División entera (sin decimales): //
+10 // 4 = 2
+
+Potencia: **
+2 ** 3 = 8
+
+Modulo (Resto) de la division: %
+10 % 2 = 0
+
+--------------------------------------------------------------------------------------------------
+//CADENAS DE TEXTO
+
+-Para distinguir una cadena de un numero usamos:
+
+Comillas simples: ‘Hola soy un string’
+Comillas dobles: “Hola soy un string”
+Triples comillas simples: ’’’Hola soy un string’’’
+Triples comillas dobles: ”””Hola soy un string”””
+
+--------------------------------------------------------------------------------------------------
+//CADENA ERROR
+
+1 + “1” nos va a generar un error.
+
+-Si Python interpreta que yo ingrese un tipo de dato numerico e ingrese un tipo caracter o cadena sabe que no los puedo sumar. Porque no puedo sumar un tipo de dato entero o flotante con un tipo de dato cadena.
+
+a=1
+b="1"
+c = a+b
+
+Error
+
+------------------------------------------------------------------------------------------------
+//TENER EN CUENTA CADENA
+
+1 + “1” nos va a generar un error
+
+“1” + “1” nos devuelve “11”
+
+“Hola soy” + “Pedro” nos devuelve “Hola soyPedro”
+
+“Hola” * 3 nos devuelve “HolaHolaHola” (concatena 3 veces)
+
+------------------------------------------------------------------------------------------------
+//BOOLEANOS
+
+-Python usa idioma ingles entonces cuando hablamos de:
+
+el verdadero es igual a True
+el falso es igual a False
+el 1 es también igual a True
+el 0 es igual a False
+
+1 <- True (1 representa True)
+0 <- False (0 representa False)
+
+--------------------------------------------------------------------------------------------------
+//OPERADORES LOGICOS
+
+&&, and, ^
+Verdadero ^ Verdadero = Verdadero
+
+||, or, ˅
+Verdadero ˅ Falso = Verdadero
+
+NOT, not, !
+not Verdadero ˅ Falso = Falso
+
+--------------------------------------------------------------------------------------------------
+//OPERADORES RELACIONALES
+
+-Cuando relaciono dos valores siempre estoy esperando obtener un valor de verdad. Esa comparacion me devuelve verdadero o falsol.
+
+Menor que (estricto): <
+1 < 2: Verdadero
+1 > 2: Falso
+
+Menor o igual que: <=
+5 <= 5: Verdadero
+10 <= 5: Falso
+
+Mayor que (estricto): >
+3 > 2: Verdadero
+1 > 10: Falso
+
+Mayor o igual que: >=
+200 >= 200: Verdadero
+10 >= 15: Falso
+
+Distinto: !=
+10 != 1: Verdadero
+5 != 5: Falso
+
+Iguales: ==
+2 == 2: Verdadero
+123 == 321: Falso
+
+- No solo comparo numeros, tambien puedo comparar expresiones algebraicas.
+-----------------------------------------------------------------------------------------------

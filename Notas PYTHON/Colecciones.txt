@@ -1,0 +1,45 @@
+//COLECCIONES
+
+-Son tipos de datos que me permiten almacenar mas de un valor. Es decir, dentro de mi misma variable yo puedo tener mas de un valor.
+
+-Esos valores son independientes, cada uno de esos valores se encuentran en espacios de memoria distinto.
+
+--------------------------------------------------------------------------------------------------
+//DIFERENCIAS SINTACTICAMENTE (diferencias en la forma en la que yo lo voy a escribir)
+
+********************************************
+//LISTAS
+numeros_lista = [1, 2, 3, 4, 5]
+salida [1, 2, 3, 4, 5]
+
+- Para definir una lista se usan corchetes
+
+********************************************
+//TUPLAS
+numeros_tupla = 1, 2, 3, 4, 5
+salida (1, 2, 3, 4, 5)
+
+- Si no le pongon corchetes automaticamente Python interpreta que es una tupla y me la encierra entre parentesis.
+
+********************************************
+//CONJUNTOS
+numeros_conjuntos = {1, 3, 2, 9, 3, 1}
+salida {1, 2, 3, 9}
+
+-Cuando pongo las llaves Python interpreta que es un conjunto y automaticamente hace dos cosas:
+1) Los conjuntos no tienen elementos repetidos
+2) Estan siempre ordenados
+Entonces le quita los repetidos y los ordena
+
+*********************************************
+//DICCIONARIOS
+numeros_diccionario = {1:1, 2:2, 3:3}
+salida {1: 1, 2: 2, 3: 3}
+
+-Me permite asociar una clave y un valor. Donde el primer valor representa una clave y el segundo valor representa un valor de la clave.
+
+*********************************************
+
+IMPORTANTE: Se diferencian sintacticamente y se diferencian en su aplicaion y su uso. No a todos les puedo agregar un elemento, quitar elementos, referenciar composiciones.
+
+----------------------------------------------------------------------------------------------

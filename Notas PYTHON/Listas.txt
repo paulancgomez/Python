@@ -1,0 +1,8 @@
+//LISTAS
+
+SON MUTABLES. Es decir, las listas son una coleccion o una estructura que pueden contener el mismo tipo de dato o puede contener distintos tipos de datos.
+
+[“Hola”, “soy”, “una”, “lista”]
+[“Hola”, 23, 1, True]
+
+---------------------------------------------------------------------------------------------------
